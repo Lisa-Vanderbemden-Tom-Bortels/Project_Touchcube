@@ -1,0 +1,31 @@
+kleurcode								richting: connector naar onder; 1-4 : links -> rechts
+
+kabel(db25)		|	vinger		|	bordje(testbord)		|	connectorpins(db25)	|		arduinopins
+				|				|							|						|
+groenwit		|	pink top   	|		groenwit-links		|   20 					|	A8
+roodwit			|	pink mid	|   	bruinwit 2			|	14					|	A2
+geelzwart		|	pink bot	|		groen links			|	19					|	A7
+oranjezwart		|	ring top	|		bruin1				|	17					|	A5
+zwartwit		|	ring mid	|		oranjewit			|	25					|	A13
+oranjewit		|	ring bot	|		bruinwit 3			|	16					|	A4
+zwartgroen		|	midd top	|		blauw				|	21					| 	A9			
+rozezwart		|	midd mid	|		geel				|	18					|	A6
+paarswit		|	midd bot	|		oranje				|	23					|	A11
+bruingrijs		|	wijs top	|		bruin 3				|	13					|	A0
+grijszwart		|	wijs mid	|		blauwwit			|	24					|	A12
+zwart			|	wijs bot	|		bruin 4				|	12					|	A1
+roodzwart		|	duim top	|		groen rechts		|	15					|	A3
+donkerblauwwit	|	duim bot	|		bruin 2				|	22					|	A10
+bruin			|	VCC			|		bruinwit 4			|	1					|	5V
+
+	
+
+Buis 1								Buis2
+	O leeg							O WM  24
+	O VCC 1							O WT  13	
+	O WB  12						O MM  18	
+	O DT  15						O MT  21
+	O DB  22						O RM  25
+	O MB  23						O RT  17
+	O RB  16						O PT  20
+	O PB  19						O PM  14

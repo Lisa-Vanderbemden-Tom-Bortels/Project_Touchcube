@@ -1,0 +1,17 @@
+Hier zijn alle bestanden terug te vinden van het project: Project Touchcube van Tom Bortels en Lisa Vanderbemden,
+studenten Electronica - ICT op PXL Tech in Diepenbeek
+
+
+Om het programma met de sensor te kunnen gebruiken zijn er eerst een aantal kleine aanpassingen nodig.
+
+Eerst moet er een database worden aangemaakt, dit kan lokaal of op een online server.
+Het is aan te raden een MySQL database te gebruiken. Het is in principe ook mogelijk een andere database te gebruiken, maar dan moeten de References in het C# programma aangepast worden naar de juiste soort database.
+
+De naam van de database hoor a2100359_project te zijn. Het kan ook een andere naam krijgen, mits deze naam ook aangepast wordt in Connection.cs van het C# programma
+Vervolgens kan het script a2100359_project(2).sql gebruikt worden om alle tabellen aan te maken en deze te vullen met benodigde waarde.
+
+Voor het programma gestart kan worden moet in het bestand connection.cs eerst nog de gebruikersnaam en wachtwoord van de Mysqldatabase worden ingevuld. Voor beveiligingsredenen zijn deze verwijderd uit dit bestand.
+Hierna kan het C# programma gestart word. Er wordt een login gevraagd. Er is een test user met administratorrechten :
+ gebruikersnaam: 10    wachtwoord: pxltech
+
+Hierna kan het programma werken zoals voorzien.
